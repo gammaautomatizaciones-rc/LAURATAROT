@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Laura Tarot</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Sadahid</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600&display=swap"></noscript>
   <link rel="stylesheet" href="base.css" />
   <link rel="stylesheet" href="hero.css" />
   <link rel="stylesheet" href="services.css" />
   <link rel="stylesheet" href="menu.css" />
   <link rel="stylesheet" href="footer.css" />
   <link rel="stylesheet" href="responsive.css" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
 </head>
 
 <body>
   <!-- HERO -->
   <header class="hero">
     <div class="hero-content">
-      <h1>Lecturas de Tarot con Laura</h1>
+      <h1>Sadahid</h1>
       <p>Guía, claridad y transformación personal.</p>
       <a href="#turnos" class="btn">Reservar sesión</a>
     </div>
@@ -25,7 +27,7 @@
 
   <!-- VIDEO BACKGROUND -->
   <section class="video-background">
-    <video autoplay muted loop playsinline>
+    <video autoplay muted loop playsinline preload="metadata">
       <source src="video/17189-278959027_small.mp4" type="video/mp4">
     </video>
   </section>
@@ -156,7 +158,7 @@
         <p>Tel: 11 7223 3260</p>
         <p>Tel: 11 3623 0582</p>
       </div>
-      <p>© 2025 Laura Tarot — Todos los derechos reservados</p>
+      <p>© 2025 Sadahid — Todos los derechos reservados</p>
     </div>
   </footer>
 
@@ -238,9 +240,9 @@
     </a>
   </div>
 
-  <script src="menu.js"></script>
-  <script src="images.js"></script>
-  <script src="animations.js"></script>
-  <script src="main.js"></script>
+  <script src="menu.js" defer></script>
+  <script src="images.js" defer></script>
+  <script src="animations.js" defer></script>
+  <script src="main.js" defer></script>
 </body>
 </html>

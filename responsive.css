@@ -94,6 +94,26 @@
     margin-bottom: 1.5rem !important;
   }
 
+  .experience-badge {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+    margin: 2rem 0 !important;
+  }
+
+  .experience-text {
+    font-size: 1.8rem !important;
+    letter-spacing: 1px !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    width: 100% !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  .experience-sparkle {
+    font-size: 2rem !important;
+  }
+
   .about p {
     font-size: 1rem !important;
     line-height: 1.7 !important;
