@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => {
       const plan = btn.dataset.plan;
       const mensaje = encodeURIComponent(`Hola Laura! Quiero reservar una sesión de tarot: ${plan}.`);
-      const url = `https://wa.me/5490000000000?text=${mensaje}`;
+      const url = `https://wa.me/5491172233260?text=${mensaje}`;
       window.open(url, '_blank');
     });
   });
