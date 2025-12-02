@@ -1,0 +1,581 @@
+/* ===== ULTRA-PREMIUM RESPONSIVE DESIGN ===== */
+/* Mobile-First Approach - Spectacular Mobile Experience */
+
+/* ===== BASE MOBILE STYLES ===== */
+@media (max-width: 480px) {
+  /* ===== TYPOGRAPHY SCALING ===== */
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+    line-height: 1.2 !important;
+    letter-spacing: 2px !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+    line-height: 1.3 !important;
+  }
+
+  h3 {
+    font-size: 1.6rem !important;
+  }
+
+  p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+
+  /* ===== HERO MOBILE ===== */
+  .hero {
+    height: 90vh !important;
+    padding: 0 1rem !important;
+    text-align: center !important;
+  }
+
+  .hero .hero-content {
+    padding: 2rem 1rem !important;
+    filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.4)) !important;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem !important;
+    margin-bottom: 1.5rem !important;
+    text-shadow:
+      0 0 30px rgba(255, 215, 0, 0.7) !important,
+      0 0 60px rgba(255, 215, 0, 0.4) !important,
+      0 0 90px rgba(138, 43, 226, 0.3) !important;
+  }
+
+  .hero p {
+    font-size: 1.1rem !important;
+    margin-bottom: 2.5rem !important;
+    padding: 1rem !important;
+    backdrop-filter: blur(2px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  }
+
+  .btn {
+    padding: 1rem 2rem !important;
+    font-size: 1rem !important;
+    letter-spacing: 2px !important;
+    width: 100% !important;
+    max-width: 280px !important;
+    margin: 0 auto !important;
+    box-shadow:
+      0 8px 20px rgba(255, 215, 0, 0.3) !important,
+      0 0 40px rgba(255, 215, 0, 0.2) !important,
+      inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    letter-spacing: 3px !important;
+  }
+
+  /* ===== VIDEO BACKGROUND MOBILE ===== */
+  .video-background video {
+    height: 90vh !important;
+    object-fit: cover !important;
+  }
+
+  /* ===== ABOUT MOBILE ===== */
+  .about {
+    padding: 3rem 1rem !important;
+    margin: 2rem auto !important;
+    border-radius: 20px !important;
+  }
+
+  .about h2 {
+    font-size: 2.2rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .about p {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+  }
+
+  /* ===== SERVICIOS INDIVIDUALES MOBILE ===== */
+  .servicio-individual {
+    padding: 3rem 1rem !important;
+    margin: 2rem 0 !important;
+  }
+
+  .servicio-container {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  .servicio-content {
+    order: 2 !important;
+  }
+
+  .servicio-image {
+    order: 1 !important;
+    width: 100% !important;
+    height: 280px !important;
+    border-radius: 15px !important;
+  }
+
+  .servicio-content h2 {
+    font-size: 2.5rem !important;
+    margin-bottom: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .servicio-content p {
+    font-size: 1rem !important;
+    text-align: center !important;
+    max-width: none !important;
+  }
+
+  /* Remove layout inversion on mobile for better UX */
+  .tarot-reversed .servicio-container,
+  .videncia-normal .servicio-container {
+    flex-direction: column !important;
+  }
+
+  .tarot-reversed .servicio-content,
+  .videncia-normal .servicio-content {
+    order: 2 !important;
+  }
+
+  .tarot-reversed .servicio-image,
+  .videncia-normal .servicio-image {
+    order: 1 !important;
+  }
+
+  /* ===== SERVICIOS GRUPOS MOBILE ===== */
+  .servicios-grupo {
+    padding: 3rem 1rem !important;
+    margin: 2rem 0 !important;
+  }
+
+  .servicios-grupo h2 {
+    font-size: 2.2rem !important;
+    margin-bottom: 2rem !important;
+    text-align: center !important;
+  }
+
+  .servicios-grupo .cards {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .servicios-grupo .card-img {
+    height: 350px !important;
+    border-radius: 20px !important;
+  }
+
+  .overlay h3 {
+    font-size: 1.8rem !important;
+  }
+
+  .overlay p {
+    font-size: 0.95rem !important;
+  }
+
+  /* ===== SESIONES MOBILE ===== */
+  .servicios {
+    padding: 3rem 1rem !important;
+  }
+
+  .servicios h2 {
+    font-size: 2.2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .servicios .cards {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .servicios .card {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .servicios .card h3 {
+    font-size: 1.5rem !important;
+  }
+
+  /* ===== MENÚ HAMBURGUESA MOBILE ===== */
+  .menu-hamburguesa {
+    top: 15px !important;
+    left: 15px !important;
+  }
+
+  .menu-toggle {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  .menu-nav {
+    width: 300px !important;
+  }
+
+  .menu-content {
+    padding: 1.5rem !important;
+  }
+
+  .menu-header h3 {
+    font-size: 1.6rem !important;
+  }
+
+  .menu-link {
+    padding: 0.8rem 1rem !important;
+  }
+
+  .menu-icon {
+    font-size: 1.3rem !important;
+    width: 25px !important;
+  }
+
+  .menu-text {
+    font-size: 0.9rem !important;
+  }
+
+  /* ===== FOOTER MOBILE ===== */
+  footer {
+    padding: 3rem 1rem !important;
+    text-align: center !important;
+  }
+
+  footer p {
+    font-size: 0.9rem !important;
+  }
+
+  /* ===== WHATSAPP MOBILE ===== */
+  .whatsapp-float {
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+
+  .whatsapp-link {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  /* ===== TOUCH OPTIMIZATIONS ===== */
+  * {
+    -webkit-tap-highlight-color: rgba(255, 215, 0, 0.2) !important;
+    touch-action: manipulation !important;
+  }
+
+  .btn,
+  .menu-toggle,
+  .menu-link,
+  .whatsapp-link,
+  .card-img,
+  .reservar {
+    min-height: 44px !important;
+    min-width: 44px !important;
+  }
+
+  /* ===== SPECIAL MOBILE ANIMATIONS ===== */
+  @keyframes mobileGlow {
+    0%, 100% {
+      box-shadow:
+        0 0 20px rgba(138, 43, 226, 0.3),
+        0 0 40px rgba(255, 20, 147, 0.2),
+        0 0 60px rgba(255, 215, 0, 0.1);
+    }
+    50% {
+      box-shadow:
+        0 0 30px rgba(138, 43, 226, 0.5),
+        0 0 60px rgba(255, 20, 147, 0.3),
+        0 0 90px rgba(255, 215, 0, 0.2);
+    }
+  }
+
+  .servicio-individual {
+    animation: mobileGlow 6s ease-in-out infinite !important;
+  }
+
+  /* ===== MOBILE SWIPE GESTURES ===== */
+  .menu-nav {
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  }
+
+  .menu-nav.active {
+    transform: translateX(0) !important;
+  }
+
+  /* ===== MOBILE SAFE AREA ===== */
+  @supports (padding-top: env(safe-area-inset-top)) {
+    .menu-hamburguesa {
+      top: calc(15px + env(safe-area-inset-top)) !important;
+    }
+
+    .whatsapp-float {
+      bottom: calc(20px + env(safe-area-inset-bottom)) !important;
+    }
+
+    .hero {
+      padding-top: calc(2rem + env(safe-area-inset-top)) !important;
+    }
+  }
+}
+
+/* ===== TABLET STYLES ===== */
+@media (min-width: 481px) and (max-width: 768px) {
+  .servicio-container {
+    grid-template-columns: 1fr 350px !important;
+    gap: 3rem !important;
+  }
+
+  .servicio-image {
+    height: 320px !important;
+  }
+
+  .servicios-grupo .cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2rem !important;
+  }
+
+  .servicios-grupo .card-img {
+    height: 380px !important;
+  }
+
+  .servicios .cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .menu-nav {
+    width: 350px !important;
+  }
+}
+
+/* ===== SMALL DESKTOP STYLES ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .servicio-container {
+    grid-template-columns: 1fr 400px !important;
+    gap: 4rem !important;
+  }
+
+  .servicio-image {
+    height: 350px !important;
+  }
+
+  .servicios-grupo .cards {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 2.5rem !important;
+  }
+
+  .servicios-grupo .card-img {
+    height: 380px !important;
+  }
+
+  .servicios .cards {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .menu-nav {
+    width: 380px !important;
+  }
+}
+
+/* ===== LARGE DESKTOP STYLES ===== */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .hero h1 {
+    font-size: 4.2rem !important;
+  }
+
+  .servicio-content h2 {
+    font-size: 3.2rem !important;
+  }
+
+  .servicios-grupo .cards {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .servicios .cards {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+/* ===== ULTRA-WIDE DESKTOP ===== */
+@media (min-width: 1201px) {
+  .hero h1 {
+    font-size: 5rem !important;
+  }
+
+  .servicio-content h2 {
+    font-size: 3.8rem !important;
+  }
+
+  .servicios h2 {
+    font-size: 3.5rem !important;
+  }
+
+  /* Enhanced hover effects for large screens */
+  .card-img:hover {
+    transform: translateY(-25px) scale(1.05) !important;
+    box-shadow:
+      0 40px 80px rgba(0, 0, 0, 0.3) !important,
+      0 0 0 1px rgba(138, 43, 226, 0.4) !important,
+      0 0 60px rgba(138, 43, 226, 0.3) !important;
+  }
+
+  .btn:hover {
+    transform: translateY(-6px) scale(1.1) !important;
+    box-shadow:
+      0 25px 60px rgba(255, 215, 0, 0.5) !important,
+      0 0 100px rgba(255, 215, 0, 0.4) !important,
+      0 0 150px rgba(138, 43, 226, 0.3) !important;
+  }
+}
+
+/* ===== DARK MODE SUPPORT ===== */
+@media (prefers-color-scheme: dark) {
+  .servicio-content h2 {
+    color: #ffffff !important;
+    text-shadow:
+      0 3px 6px rgba(0, 0, 0, 0.3) !important,
+      0 1px 2px rgba(0, 0, 0, 0.2) !important,
+      0 0 30px rgba(138, 43, 226, 0.3) !important,
+      0 0 60px rgba(138, 43, 226, 0.15) !important;
+  }
+
+  .about {
+    background: rgba(255,255,255,0.08) !important;
+    backdrop-filter: blur(10px) !important;
+  }
+}
+
+/* ===== REDUCED MOTION SUPPORT ===== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .servicio-individual {
+    animation: none !important;
+  }
+}
+
+/* ===== HIGH CONTRAST MODE ===== */
+@media (prefers-contrast: high) {
+  .servicio-content h2 {
+    color: #ffffff !important;
+    text-shadow:
+      0 0 2px #000000 !important,
+      0 0 4px #000000 !important;
+  }
+
+  .btn {
+    border: 3px solid #ffffff !important;
+    background: #ffd700 !important;
+  }
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+  .menu-hamburguesa,
+  .whatsapp-float,
+  .video-background video {
+    display: none !important;
+  }
+
+  .servicio-individual,
+  .servicios-grupo,
+  .servicios {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .servicio-content h2 {
+    color: #000000 !important;
+    text-shadow: none !important;
+  }
+
+  .btn {
+    background: #f0f0f0 !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+    box-shadow: none !important;
+  }
+}
+
+/* ===== ULTRA-PREMIUM MOBILE ENHANCEMENTS ===== */
+@media (max-width: 480px) {
+  /* ===== MAGICAL TOUCH EFFECTS ===== */
+  .card-img {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  }
+
+  .card-img:active {
+    transform: scale(0.98) !important;
+    box-shadow:
+      0 10px 30px rgba(0, 0, 0, 0.4) !important,
+      inset 0 0 20px rgba(138, 43, 226, 0.2) !important;
+  }
+
+  /* ===== MOBILE MENU ENHANCED ===== */
+  .menu-nav {
+    backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
+    background: rgba(15, 15, 35, 0.95) !important;
+  }
+
+  /* ===== MOBILE GESTURE SUPPORT ===== */
+  .menu-nav {
+    will-change: transform !important;
+  }
+
+  /* ===== MOBILE PERFORMANCE ===== */
+  .servicio-image img,
+  .card-img {
+    will-change: transform !important;
+    transform: translateZ(0) !important;
+  }
+
+  /* ===== MOBILE ACCESSIBILITY ===== */
+  .btn:focus,
+  .menu-toggle:focus,
+  .whatsapp-link:focus {
+    outline: 3px solid #ffd700 !important;
+    outline-offset: 2px !important;
+    border-radius: 8px !important;
+  }
+
+  /* ===== MOBILE VOICE OVER SUPPORT ===== */
+  .menu-link,
+  .btn,
+  .card-img {
+    cursor: pointer !important;
+  }
+
+  /* ===== MOBILE LANDSCAPE OPTIMIZATION ===== */
+  @media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+      height: 100vh !important;
+      padding: 1rem !important;
+    }
+
+    .hero h1 {
+      font-size: 2rem !important;
+    }
+
+    .hero p {
+      font-size: 0.9rem !important;
+      margin-bottom: 1.5rem !important;
+    }
+
+    .servicio-individual {
+      padding: 2rem 1rem !important;
+    }
+
+    .servicio-content h2 {
+      font-size: 2rem !important;
+    }
+  }
+}
