@@ -222,12 +222,16 @@
 .about p {
   font-size: 1.4rem;
   line-height: 1.9;
-  color: #2c3e50;
+  color: #FFD700;
   max-width: 750px;
   margin: 0 auto 3rem;
   position: relative;
   z-index: 3;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-shadow:
+    0 0 10px rgba(255, 215, 0, 0.8),
+    0 0 20px rgba(255, 215, 0, 0.6),
+    0 0 30px rgba(255, 215, 0, 0.4),
+    0 1px 2px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2px);
   background: rgba(255, 255, 255, 0.1);
   padding: 2rem;
@@ -431,7 +435,7 @@
 .servicio-content p {
   font-size: 1.25rem;                /* más equilibrado y legible */
   line-height: 1.9;                  /* mejor ritmo visual */
-  color: #000000;                    /* gris cálido, más suave que el negro */
+  color: #FFD700;
   margin-bottom: 2.5rem;
   max-width: 700px;                  /* más aire */
   margin-left: auto;
@@ -439,10 +443,10 @@
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.3px;             /* un toque de elegancia */
-  background: linear-gradient(90deg, #000000, #000000, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  /* texto con degradado */
-  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.05));
+  text-shadow:
+    0 0 10px rgba(255, 215, 0, 0.8),
+    0 0 20px rgba(255, 215, 0, 0.6),
+    0 0 30px rgba(255, 215, 0, 0.4);
   animation: fadeInText 1.2s ease-in-out both;
 }
 
