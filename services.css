@@ -744,3 +744,14 @@
   margin-bottom: 1.5rem;
   opacity: 0.95;
 }
+
+.contact-phone {
+  font-size: 1rem;
+  color: #FFD700;
+  text-shadow:
+    0 0 5px rgba(255, 215, 0, 0.6),
+    0 0 10px rgba(255, 215, 0, 0.4);
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
